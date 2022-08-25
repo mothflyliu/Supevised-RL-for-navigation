@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Automata name="Untitled" major="0" minor="9">
+<Automaton name="turtle" type="Supervisor">
+	<Events>
+		<Event id="0" label="down"/>
+		<Event id="1" label="left"/>
+		<Event id="2" label="right"/>
+		<Event id="3" label="up"/>
+	</Events>
+	<States>
+		<State id="0" name="S11"/>
+		<State id="1" name="S12" initial="true"/>
+		<State id="2" name="S13"/>
+		<State id="3" name="S14"/>
+		<State id="4" name="S15"/>
+		<State id="5" name="S16"/>
+		<State id="6" name="S17"/>
+		<State id="7" name="S21"/>
+		<State id="8" name="S22" forbidden="true" cost="1.7976931348623157E308"/>
+		<State id="9" name="S23" forbidden="true" cost="1.7976931348623157E308"/>
+		<State id="10" name="S24"/>
+		<State id="11" name="S25" forbidden="true" cost="1.7976931348623157E308"/>
+		<State id="12" name="S26" forbidden="true" cost="1.7976931348623157E308"/>
+		<State id="13" name="S27"/>
+		<State id="14" name="S31"/>
+		<State id="15" name="S32" forbidden="true" cost="1.7976931348623157E308"/>
+		<State id="16" name="S33" forbidden="true" cost="1.7976931348623157E308"/>
+		<State id="17" name="S34"/>
+		<State id="18" name="S35" forbidden="true" cost="1.7976931348623157E308"/>
+		<State id="19" name="S36" forbidden="true" cost="1.7976931348623157E308"/>
+		<State id="20" name="S37"/>
+		<State id="21" name="S41"/>
+		<State id="22" name="S42" forbidden="true" cost="1.7976931348623157E308"/>
+		<State id="23" name="S43" forbidden="true" cost="1.7976931348623157E308"/>
+		<State id="24" name="S44"/>
+		<State id="25" name="S45" forbidden="true" cost="1.7976931348623157E308"/>
+		<State id="26" name="S46" forbidden="true" cost="1.7976931348623157E308"/>
+		<State id="27" name="S47"/>
+		<State id="28" name="S51"/>
+		<State id="29" name="S52"/>
+		<State id="30" name="S53"/>
+		<State id="31" name="S54"/>
+		<State id="32" name="S55"/>
+		<State id="33" name="S56" accepting="true"/>
+		<State id="34" name="S57"/>
+	</States>
+	<Transitions>
+		<Transition source="0" dest="1" event="2"/>
+		<Transition source="0" dest="7" event="3"/>
+		<Transition source="1" dest="0" event="1"/>
+		<Transition source="1" dest="2" event="2"/>
+		<Transition source="2" dest="1" event="1"/>
+		<Transition source="2" dest="3" event="2"/>
+		<Transition source="3" dest="2" event="1"/>
+		<Transition source="3" dest="4" event="2"/>
+		<Transition source="3" dest="10" event="3"/>
+		<Transition source="4" dest="3" event="1"/>
+		<Transition source="4" dest="5" event="2"/>
+		<Transition source="5" dest="4" event="1"/>
+		<Transition source="5" dest="6" event="2"/>
+		<Transition source="6" dest="5" event="1"/>
+		<Transition source="6" dest="13" event="3"/>
+		<Transition source="7" dest="0" event="0"/>
+		<Transition source="7" dest="14" event="3"/>
+		<Transition source="10" dest="3" event="0"/>
+		<Transition source="10" dest="17" event="3"/>
+		<Transition source="13" dest="6" event="0"/>
+		<Transition source="13" dest="20" event="3"/>
+		<Transition source="14" dest="7" event="0"/>
+		<Transition source="14" dest="21" event="3"/>
+		<Transition source="17" dest="10" event="0"/>
+		<Transition source="17" dest="24" event="3"/>
+		<Transition source="20" dest="13" event="0"/>
+		<Transition source="20" dest="27" event="3"/>
+		<Transition source="21" dest="14" event="0"/>
+		<Transition source="21" dest="28" event="3"/>
+		<Transition source="24" dest="17" event="0"/>
+		<Transition source="24" dest="31" event="3"/>
+		<Transition source="27" dest="20" event="0"/>
+		<Transition source="27" dest="34" event="3"/>
+		<Transition source="28" dest="21" event="0"/>
+		<Transition source="28" dest="29" event="2"/>
+		<Transition source="29" dest="28" event="1"/>
+		<Transition source="29" dest="30" event="2"/>
+		<Transition source="30" dest="29" event="1"/>
+		<Transition source="30" dest="31" event="2"/>
+		<Transition source="31" dest="24" event="0"/>
+		<Transition source="31" dest="32" event="2"/>
+		<Transition source="31" dest="30" event="1"/>
+		<Transition source="32" dest="31" event="1"/>
+		<Transition source="32" dest="33" event="2"/>
+		<Transition source="33" dest="32" event="1"/>
+		<Transition source="33" dest="34" event="2"/>
+		<Transition source="34" dest="27" event="0"/>
+		<Transition source="34" dest="33" event="1"/>
+	</Transitions>
+</Automaton>
+</Automata>
