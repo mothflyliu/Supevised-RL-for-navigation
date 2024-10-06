@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Automata name="Untitled" major="0" minor="9">
+<Automaton name="turtle" type="Supervisor">
+	<Events>
+		<Event id="0" label="down"/>
+		<Event id="1" label="left"/>
+		<Event id="2" label="right"/>
+		<Event id="3" label="up"/>
+	</Events>
+	<States>
+		<State id="0" name="S11" initial="true"/>
+		<State id="1" name="S12"/>
+		<State id="2" name="S13"/>
+		<State id="3" name="S14"/>
+		<State id="4" name="S15"/>
+		<State id="5" name="S16"/>
+		<State id="6" name="S17"/>
+		<State id="7" name="S21"/>
+		<State id="8" name="S22"/>
+		<State id="9" name="S23"/>
+		<State id="10" name="S24"/>
+		<State id="11" name="S25"/>
+		<State id="12" name="S26"/>
+		<State id="13" name="S27"/>
+		<State id="14" name="S31"/>
+		<State id="15" name="S32"/>
+		<State id="16" name="S33"/>
+		<State id="17" name="S34"/>
+		<State id="18" name="S35"/>
+		<State id="19" name="S36"/>
+		<State id="20" name="S37"/>
+		<State id="21" name="S41"/>
+		<State id="22" name="S42"/>
+		<State id="23" name="S43"/>
+		<State id="24" name="S44"/>
+		<State id="25" name="S45"/>
+		<State id="26" name="S46"/>
+		<State id="27" name="S47"/>
+		<State id="28" name="S51"/>
+		<State id="29" name="S52"/>
+		<State id="30" name="S53"/>
+		<State id="31" name="S54"/>
+		<State id="32" name="S55"/>
+		<State id="33" name="S56" accepting="true"/>
+		<State id="34" name="S57"/>
+	</States>
+	<Transitions>
+		<Transition source="0" dest="1" event="2"/>
+		<Transition source="0" dest="7" event="3"/>
+		<Transition source="1" dest="0" event="1"/>
+		<Transition source="1" dest="2" event="2"/>
+		<Transition source="2" dest="1" event="1"/>
+		<Transition source="2" dest="3" event="2"/>
+		<Transition source="3" dest="2" event="1"/>
+		<Transition source="3" dest="4" event="2"/>
+		<Transition source="4" dest="3" event="1"/>
+		<Transition source="4" dest="5" event="2"/>
+		<Transition source="4" dest="11" event="3"/>
+		<Transition source="5" dest="4" event="1"/>
+		<Transition source="5" dest="12" event="3"/>
+
+		<Transition source="7" dest="0" event="0"/>
+		<Transition source="7" dest="14" event="3"/>
+		<Transition source="8" dest="15" event="3"/>
+		<Transition source="8" dest="9" event="2"/>
+		<Transition source="9" dest="16" event="3"/>
+		<Transition source="9" dest="8" event="1"/>
+		<Transition source="9" dest="10" event="2"/>
+		<Transition source="10" dest="9" event="1"/>
+		<Transition source="10" dest="11" event="2"/>
+		<Transition source="10" dest="17" event="3"/>
+		<Transition source="11" dest="4" event="0"/>
+		<Transition source="11" dest="10" event="1"/>
+		<Transition source="11" dest="12" event="2"/>
+
+		<Transition source="12" dest="5" event="0"/>
+		<Transition source="12" dest="11" event="1"/>
+		<Transition source="12" dest="13" event="2"/>
+
+		<Transition source="13" dest="12" event="1"/>
+		<Transition source="13" dest="20" event="3"/>
+		<Transition source="14" dest="7" event="0"/>
+		<Transition source="14" dest="21" event="3"/>
+		<Transition source="15" dest="22" event="3"/>
+		<Transition source="15" dest="8" event="0"/>
+		<Transition source="16" dest="9" event="0"/>
+		<Transition source="16" dest="23" event="3"/>
+		<Transition source="16" dest="17" event="2"/>
+		<Transition source="17" dest="16" event="1"/>
+
+		<Transition source="17" dest="10" event="0"/>
+		<Transition source="17" dest="24" event="3"/>
+
+
+		<Transition source="20" dest="13" event="0"/>
+		<Transition source="20" dest="27" event="3"/>
+
+		<Transition source="21" dest="14" event="0"/>
+		<Transition source="21" dest="28" event="3"/>
+		<Transition source="22" dest="29" event="3"/>
+		<Transition source="22" dest="15" event="0"/>
+		<Transition source="22" dest="23" event="2"/>
+		<Transition source="23" dest="24" event="2"/>
+		<Transition source="23" dest="16" event="0"/>
+		<Transition source="24" dest="17" event="0"/>
+		<Transition source="24" dest="23" event="1"/>
+		<Transition source="24" dest="25" event="2"/>
+		<Transition source="25" dest="26" event="2"/>
+		<Transition source="25" dest="24" event="1"/>
+
+		<Transition source="26" dest="25" event="1"/>
+		<Transition source="26" dest="27" event="2"/>
+
+		<Transition source="26" dest="33" event="3"/>
+		<Transition source="27" dest="34" event="3"/>
+		<Transition source="27" dest="20" event="0"/>
+		<Transition source="27" dest="26" event="1"/>
+		<Transition source="28" dest="21" event="0"/>
+		<Transition source="28" dest="29" event="2"/>
+		<Transition source="29" dest="22" event="0"/>
+		<Transition source="29" dest="28" event="1"/>
+		<Transition source="29" dest="30" event="2"/>
+		<Transition source="30" dest="29" event="1"/>
+
+
+
+		<Transition source="32" dest="33" event="2"/>
+		<Transition source="33" dest="32" event="1"/>
+		<Transition source="33" dest="34" event="2"/>
+		<Transition source="33" dest="26" event="0"/>
+		<Transition source="34" dest="27" event="0"/>
+		<Transition source="34" dest="33" event="1"/>
+	</Transitions>
+</Automaton>
+</Automata>
